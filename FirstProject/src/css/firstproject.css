@@ -1,0 +1,132 @@
+body {
+    background-color: #232830;
+}
+.options {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    padding-right: 100px;
+}
+.suboptions {
+    float: left;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+.logo {
+    display: block;
+    padding-left: 45%;
+}
+.heading{
+    font-family: Recursive;
+    font-size: 71px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: #FF7575;
+    margin-top: 11px;
+    margin-left: 600px;
+
+}
+.heading2 {
+    font-family: Poppins;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 1px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 11px;
+    margin-left: 650px;
+}
+.line {
+    width: 100%;
+}
+.slice, .cube {
+    float: left;
+    margin-top: 4px;
+}
+.slice {
+    margin-left: 20px;
+}
+.categories {
+    list-style: none;
+    float: left;
+    margin-left: 50px;
+    font-family: Recursive;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #909090;
+}
+.fields {
+    margin-left: 15%;
+    overflow: auto;
+}
+.categories:last-child {
+    filter: blur(0.9px);
+}
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9{
+    width: 29%;
+    height: 439px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 22px;
+    border: 1px solid #252930;
+    background: #FFF;
+    float: left;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.boximg {
+    margin-top: 10%;
+    text-align: center;
+}
+.date, .field, .dot {
+    float: left;
+    text-align: left;
+    margin-left: 15%;
+}
+.dot {
+    margin-top: 6%;
+}
+.pagination {
+    clear: left;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    word-spacing: 30px;
+}
+a {
+    font-family: Recursive;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    color: #909090;
+    text-align: center;
+    width: 10px;
+}
+.pagination a:focus {
+    color: #FF7575;
+    border-top: 2px solid #FF7575;
+}
+.pagination a{
+    padding-left: 30px;
+}
